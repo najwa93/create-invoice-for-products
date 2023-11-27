@@ -8,18 +8,23 @@
 </p>
 
 ## Introduction
-Create invoice for products is a simple laravel project that accepts products from multiple countries(with product details such as weight,item price..) and genrate detailed invoice with total prices , shipping fees,
-vat number for products.It also applies some offers on specific products and generates also detailed invoice containing overall total price after discounts.
-The project created with Laravel framework and Bootstrap for both frontend & backend.
+Create invoice for products is a simple laravel project that accepts products from multiple countries(with product details such as weight,item price..) and genrate detailed invoice with total prices
+, shipping fees, vat number for products.It also applies some offers on specific products and generatesalso detailed invoice
+containing overall total price after discounts. The project created with Laravel framework and Bootstrap for both frontend & backend.
 
 ## Development Config & Commands
 Please run these commands:
-1- git clone https://github.com/najwa93/create-invoice-for-products.git.
+1- git clone https://github.com/najwa93/create-invoice-for-products.git
+
 2- composer install
+
 3- cp .env.example .env
+
 4- php artisan key:generate
-3- npm install
-4- npm run build
+
+5- npm install
+
+6- npm run build
 
 # Technical Choices & Architecture:
 Unfortunately I didn't use specific design pattern, but if I have much time I would use repository design pattern, it applies organization,flexibility and help move between different code resources without affecting
