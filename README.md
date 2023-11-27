@@ -23,7 +23,7 @@ Please run these commands:
 
 2- composer install
 
-3- cp .env.example   .env
+3- cp  .env.example  .env
 
 4- php artisan key:generate
 
