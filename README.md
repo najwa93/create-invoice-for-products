@@ -27,9 +27,23 @@ Please run these commands:
 
 4- php artisan key:generate
 
-5- npm install
+Now for database:
 
-6- npm run build
+we use mysql database with phpmyadmin,
+
+1- create new database in phpmyAdmin with name invoices
+
+2- edit DB_DATABASE in .env file to invoices
+
+3- run php artisan migrate
+
+4- run php artisan db:seed
+
+ then run:
+ 
+- npm install
+
+- npm run build
 
 # Technical Choices & Architecture:
 Unfortunately I didn't use specific design pattern, but if I have much time I would use repository design pattern,
